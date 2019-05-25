@@ -16,18 +16,18 @@
 
     <style>
         /* TEMPLATE STYLES */
-
-        
         figure {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        *{
+
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         html,
         body {
             background-color: #fff;
@@ -78,7 +78,7 @@
         }
 
         .profile {
-            background-image: url("https://images.statusfacebook.com/profile_pictures/animation/animation_profile_pictures_12.jpg");
+            background-image: url("https://cdn-03.independent.ie/incoming/article36181091.ece/0470c/AUTOCROP/w620/peppa.JPG");
             background-size: cover;
             background-position: center;
             margin-right: 2%;
@@ -163,6 +163,27 @@
             color: #333;
             text-align: center;
             transform: rotateY(180deg);
+            margin-top: -26%;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            padding: 1px;
+            border-bottom: 1px solid #0099CC;
+            transition: border-bottom 0.2s, color 0.2s;
+            /* margin-top: -30%; */
+        }
+
+        .btn{
+            /* padding-top: -30px; */
+            font-size: 14px;
+            max-height: 40px;
+            margin-top: -50px;
+            text-decoration: none;
+            border-radius: 20px;
+            background-color: #33b5e5;
+            transition: background-color 0.2s, border 0.2s, color 0.2s;
         }
     </style>
 
@@ -236,9 +257,11 @@
                 <div class="maincontainer">
 
                     <div class="thecard toy">
+                        <h6 style="color:cornsilk">Products</h6>
                         <div class="theback ">
-                            <h6 style="margin-top: 50%;">Products</h6>
-
+                            <a class="btn" href="#" style="margin-top: 45%;">
+                                <p>Go to Products</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -249,33 +272,40 @@
                 <div class="maincontainer">
 
                     <div class="thecard games">
+                        <h6 style="color:cornsilk">Games</h6>
                         <div class="theback ">
-                            <h6 style="margin-top: 50%;">Games</h6>
-
+                            <a href="#" class="btn" style="margin-top: 45%;">
+                                <p>Go to Games</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </figure>
             <br>
-            <figure class="col-5 col-md-5 d-md-inline-block ml-4 " >
+            <figure class="col-5 col-md-5 d-md-inline-block ml-4 ">
                 <div class="maincontainer">
 
                     <div class="thecard profile">
+                        <h6 style="color:cornsilk">Profile</h6>
                         <div class="theback ">
-                            <h6 style="margin-top: 50%;">Profile</h6>
-
+                            <a href="#" class="btn" style="margin-top: 45%;">
+                                <p>Go to Profile</p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </figure>
 
-            <figure class="col-5 col-md-5 d-md-inline-block " >
+            <figure class="col-5 col-md-5 d-md-inline-block ">
+
                 <div class="maincontainer">
 
                     <div class="thecard quiz">
+                        <h6 style="color:cornsilk">Quiz</h6>
                         <div class="theback ">
-                            <h6 style="margin-top: 50%;">Quiz</h6>
-
+                            <a href="#" class="btn" style="margin-top: 45%;">
+                                Go to quiz
+                            </a>
                         </div>
                     </div>
                 </div>
